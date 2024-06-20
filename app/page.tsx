@@ -23,7 +23,8 @@ export default function Home() {
     {
       image: '/assets/icons/features/touch.svg',
       feature: 'NFT Rewards',
-      summary: 'Sponsors receive NFTs as tokens of appreciation for their support, making them eligible for rewards',
+      summary:
+        'Sponsors receive NFTs as tokens of appreciation for their support, making them eligible for rewards',
     },
   ]
   return (
