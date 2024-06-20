@@ -90,12 +90,13 @@ export default function Home() {
             </div>
             <div className="w-full relative">
               <Card
-                image="/assets/icons/user.svg"
+                image="/assets/icons/athlete.svg"
                 heading="For Athletes"
                 content="Athletes can share thier story and raise funds to overcome financial barriers, allowing them to participate in tournaments and pursue thier athletic dreams."
+                // <sty
               ></Card>
               <Card
-                image="/assets/icons/brand.svg"
+                image="/assets/icons/sponsor.svg"
                 heading="For Sponsorers"
                 content="Sponsors can discover and support emerging athletes from underdeveloped or developing countries. They inturn, receive incentives from the betting platform on the sponsored atheletes."
               ></Card>

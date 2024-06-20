@@ -1,9 +1,9 @@
-<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="72" height="72" fill="url(#pattern0)"/>
-<defs>
-<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_171_379" transform="scale(0.0208333)"/>
-</pattern>
-<image id="image0_171_379" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAC8ElEQVR4nO3W4XXaSBSG4W8qiDpYbQXGFaxUQdgKFipwUsFCBXEqCKnAdgWeDsAVhHQAFSjvPRMFCRAaOwPiR95zHs7JZGLuxZjYaVch6Q6FpAxD94jP8DpRvcBE0hdcY1Ms1JHDGA+45kp4HcnhGYWuuyfYC32QLVCh2S1WGLIRlmhmsx5kh/sL2Nk1FDWXHUZdHKCoueww6uIARc1lh1EXByhqLjuMujhAUXPZYdTFAYqayw6jLg5Q1Fx2GHVxgKLmssOoiwMUNZcdRl0coKi57DDq4gBFzWWHURcHKsMIEwUH2bDXvEBvNuyfBXrK8IwRXtsGH7FQRzZshWZ2lrJ73OF36pzJ/uLcC8wk/Y+3tkWGo9mwFZrZWcrsyReS3uO1fcdM4d8fzWF/gVuskDov6R/UlfBq59V/p5VDhXNkL0KJDSyv/uG8+u+0cqhwrkp4hbz6h/Pqv9PKocK5KuEV8uofzqv/TiuHCudoixHWCnn1D+fVf6eVwwo3SN0UC4UyLJFrVwmvdl7tBaZY6EQOH/AJKXvCGHVfMFE7e+79HvEedRvcYq2O6i+ywg1S9B0jbGCN8YBmc8x02AhLNFvBljiag5XBK80SJbxCucJA9vXrXjBCVx/wCc3mmOlIDs0mCl/gBm9pjpl2LTFC3Rb257VO59X+WbBKeO3lkKIMXmG4upkOfwf6iHv0lWEt6R3q1gpvpQ1+lWoBK1d4EqtQ+BW62RPGiM3uPqDZI/7FrxxSl2GJXLu2yLX36kV0jzs0m2Khnzmk7gFjNCvh9foyeLV/Jje4xVrkkLKJwmf+uVvBlji5QKEwTK7uplgolCu8dTJcojlmjoeuviFXd1vkCt9S6xmFLtvfjoeubLB36OoJY9RVuHRfTy1QKLw9/sKx5phpV4VLt3Y8pGqIBZRygQ1OveXO0UvKBRaS/sMl+5xygVzh8/lS34UtcsdDyiYK//2fewkbvhAvWOoFrFzh06lQ9yfYW3vBI+6xgX4A3+anP5i85O4AAAAASUVORK5CYII="/>
-</defs>
+<svg width="800px" height="800px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -4999.000000)" fill="#ffffff">
+            <g id="icons" transform="translate(56.000000, 160.000000)">
+                <path d="M102,4850 C102,4850.552 101.552,4851 101,4851 L95,4851 L93,4851 L87,4851 C86.448,4851 86,4850.552 86,4850 L86,4844 C86,4843.448 86.448,4843 87,4843 L101,4843 C101.552,4843 102,4843.448 102,4844 L102,4850 Z M102,4841 L95,4841 L95,4840 C95,4839.448 94.552,4839 94,4839 C93.448,4839 93,4839.448 93,4840 L93,4841 L86,4841 C84.895,4841 84,4841.895 84,4843 L84,4851 C84,4852.105 84.895,4853 86,4853 L90.793,4853 L88.658,4857.581 C88.35,4858.243 88.833,4859 89.562,4859 L89.563,4859 C89.95,4859 90.302,4858.776 90.466,4858.425 L93,4853 L93,4858.003 C93,4858.553 93.447,4859 93.997,4859 L94.003,4859 C94.553,4859 95,4858.553 95,4858.003 L95,4853 L97.534,4858.425 C97.698,4858.776 98.05,4859 98.437,4859 L98.437,4859 C99.167,4859 99.65,4858.243 99.342,4857.581 L97.207,4853 L102,4853 C103.105,4853 104,4852.105 104,4851 L104,4843 C104,4841.895 103.105,4841 102,4841 L102,4841 Z" id="showcase_round-[#726]"></path>
+            </g>
+        </g>
+    </g>
 </svg>
