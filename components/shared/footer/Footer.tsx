@@ -11,13 +11,13 @@ const Footer = () => {
           <div className="flex justify-between items-center">
             <h6>© 2024 Sportnet. All rights reserved</h6>
             <ul className="lg:flex gap-12 hidden">
-              <Link href="https://twitter.com/permaAds">
+              <Link target="_blank" href="https://x.com/Sport3Net">
                 <li>Twitter</li>
               </Link>
-              <Link target="_blank" href="https://t.me/+LeA-L0o62S0zZWM1">
-                Telegram
+              <Link target="_blank" href="">
+                Notion
               </Link>
-              <Link target="_blank" href="https://github.com/PermaAds">
+              <Link target="_blank" href="https://github.com/SportnetOfficial">
                 Github
               </Link>
             </ul>

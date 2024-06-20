@@ -22,7 +22,9 @@ export const Container: React.FC<ContainerProps> = ({ children, className }) => 
 export const NavContainer: React.FC<ContainerProps> = ({ children, className }) => {
   return (
     <header className="relative">
-      <nav className={`max-w-10xl mx-auto flex justify-between items-center px-3 lg:px:8 py-4 ${className}`}>
+      <nav
+        className={`max-w-10xl mx-auto flex justify-between items-center px-3 lg:px:8 py-4 ${className}`}
+      >
         {children}
       </nav>
     </header>
