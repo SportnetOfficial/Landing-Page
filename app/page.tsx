@@ -1,4 +1,4 @@
-"use client"
+'use client'
 
 import Image from 'next/image'
 import { SectionContainer, Container } from '@/components/ui/Containers'
@@ -57,17 +57,17 @@ export default function Home() {
     { label: 'Total Amount Funded', value: 1200931 },
     { label: 'Athletes Supported', value: 850 },
     { label: 'Sponsors', value: 340 },
-    { label: 'Countries Involved', value: 50 }
+    { label: 'Countries Involved', value: 50 },
   ]
 
   const [animationKey, setAnimationKey] = useState(0)
   const { ref, inView } = useInView({
-    threshold: 0.5
+    threshold: 0.5,
   })
 
   useEffect(() => {
     if (inView) {
-      setAnimationKey(prevKey => prevKey + 1)
+      setAnimationKey((prevKey) => prevKey + 1)
     }
   }, [inView])
 
@@ -181,10 +181,19 @@ export default function Home() {
               </h2>
               <Image src="/assets/images/underline2.svg" alt="underline" width={600} height={21} />
             </div>
-            <div key={animationKey} className="grid lg:grid-cols-4 justify-center gap-12 mx-auto grid-cols-1">
+            <div
+              key={animationKey}
+              className="grid lg:grid-cols-4 justify-center gap-12 mx-auto grid-cols-1"
+            >
               {stats.map((stat, index) => (
                 <div key={index} className="flex flex-col items-center">
-                  <CountUp start={0} end={stat.value} duration={2.5} separator="," className="text-5xl font-bold" />
+                  <CountUp
+                    start={0}
+                    end={stat.value}
+                    duration={2.5}
+                    separator=","
+                    className="text-5xl font-bold"
+                  />
                   <p className="text-xl font-light">{stat.label}</p>
                 </div>
               ))}
