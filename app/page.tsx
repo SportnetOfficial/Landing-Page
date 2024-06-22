@@ -97,7 +97,7 @@ export default function Home() {
               ></Card>
               <Card
                 image="/assets/icons/sponsor.svg"
-                heading="For Sponsorers"
+                heading="For Sponsers"
                 content="Sponsors can discover and support emerging athletes from underdeveloped or developing countries. They inturn, receive incentives from the betting platform on the sponsored atheletes."
               ></Card>
             </div>
