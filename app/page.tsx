@@ -5,27 +5,56 @@ import FeaturesCard from '@/components/Features/FeaturesCard'
 import { Reveal, CardAnimation } from '@/components/ui/AnimatedContainers'
 export default function Home() {
   const features = [
+    
     {
-      image: '/assets/icons/features/heart.svg',
-      feature: 'Secure Funding',
-      summary: 'transparent and secure transactions with Starknet',
+      image: '/assets/icons/features/dec.svg',
+      feature: 'Decentralized Governance',
+      summary:
+        'Community-Driven Decisions - Your voice matters in shaping our platform',
     },
     {
       image: '/assets/icons/features/computer.svg',
       feature: 'Showcase Talents',
-      summary: 'Easy-to-use interfaces for athletes to share their stories and aspirations',
+      summary: 'Discover Rising Stars - Dive into detailed profiles and personal journeys',
     },
     {
-      image: '/assets/icons/features/progress.svg',
+      image: '/assets/icons/features/bet.svg',
       feature: 'Bet & Win',
-      summary: 'Visitors can place bets on athletes with secure on-chain transactions.',
+      summary: 'Get in the Game - Bet on performances, win rewards, feel the thrill',
     },
     {
       image: '/assets/icons/features/touch.svg',
       feature: 'NFT Rewards',
       summary:
-        'Sponsors receive NFTs as tokens of appreciation for their support, making them eligible for rewards',
+        'Exclusive Digital Collectibles - Own unique NFTs and be part of the journey',
     },
+    {
+      image: '/assets/icons/features/heart.svg',
+      feature: 'Secure Funding',
+      summary: 'Invest with Confidence securly for every contribution on Starknet',
+    },
+
+    {
+      image: '/assets/icons/features/social.svg',
+      feature: 'Social Engagement',
+      summary:
+        'Connect and Share - Foster a vibrant community of fans and supporters',
+    },
+
+    {
+      image: '/assets/icons/features/analytics.svg',
+      feature: 'Real-Time Analytics',
+      summary:
+        'Stay Informed - Access real-time data for informed decisions',
+    },
+
+    {
+      image: '/assets/icons/features/training.svg',
+      feature: 'Training & Progress Updates',
+      summary:
+        'Follow Their Journey - Regular updates on training and milestones',
+    },
+    
   ]
   return (
     <>
@@ -113,17 +142,17 @@ export default function Home() {
               </h2>
               <Image src="/assets/images/underline2.svg" alt="underline" width={600} height={21} />
             </div>
-            <div className="flex flex-col gap-12 my-10 mx-auto">
-              <div className="grid  lg:grid-cols-2 justify-center gap-12 mx-auto grid-cols-1">
+            <div className="flex flex-col gap-12 my-10 mx">
+              <div className="grid  lg:grid-cols-4 justify-center gap-12 mx-auto grid-cols-1">
                 {features.map((feature, index) => {
                   return (
-                    // <CardAnimation key={index} custom={index}>
+                    <CardAnimation key={index} custom={index}>
                     <FeaturesCard
                       image={feature.image}
                       feature={feature.feature}
                       summary={feature.summary}
                     />
-                    // </CardAnimation>
+                     </CardAnimation>
                   )
                 })}
               </div>
