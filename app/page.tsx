@@ -54,10 +54,10 @@ export default function Home() {
   ]
 
   const stats = [
-    { label: 'Total Amount Funded', value: 1200931 },
-    { label: 'Athletes Supported', value: 850 },
-    { label: 'Sponsors', value: 340 },
-    { label: 'Countries Involved', value: 50 },
+    { label: 'Total Amount Funded', value: 52123 },
+    { label: 'Athletes Supported', value: 231 },
+    { label: 'Sponsors', value: 32 },
+    { label: 'Countries Involved', value: 12 },
   ]
 
   const [animationKey, setAnimationKey] = useState(0)
@@ -105,11 +105,40 @@ export default function Home() {
           </Reveal>
         </Container>
       </SectionContainer>
+      <SectionContainer>
+        <Container>
+          <Reveal>
+            <div className="flex my-10 flex-col w-full items-center justify-center gap-1" ref={ref}>
+              <h2 className="text-4xl py-4 font-bold text-center" id="stats">
+                Stats
+              </h2>
+              <Image src="/assets/images/underline2.svg" alt="underline" width={600} height={21} />
+            </div>
+            <div
+              key={animationKey}
+              className="grid lg:grid-cols-4 justify-center gap-12 mx-auto grid-cols-1"
+            >
+              {stats.map((stat, index) => (
+                <div key={index} className="flex flex-col items-center">
+                  <CountUp
+                    start={0}
+                    end={stat.value}
+                    duration={2.5}
+                    separator=","
+                    className="text-5xl font-bold"
+                  />
+                  <p className="text-xl font-light">{stat.label}</p>
+                </div>
+              ))}
+            </div>
+          </Reveal>
+        </Container>
+      </SectionContainer>
       <SectionContainer className="bg-secondary">
         <Container>
           <Reveal>
             <div className="w-full mt-10">
-              <div className="flex justify-center gap-1">
+              <div className="flex justify-center gap-1" id="vision">
                 <h2 className="text-4xl py-4 font-bold text-center">Our Vision</h2>
                 <Image
                   className=" -translate-y-3"
@@ -172,35 +201,7 @@ export default function Home() {
           </Reveal>
         </Container>
       </SectionContainer>
-      <SectionContainer>
-        <Container>
-          <Reveal>
-            <div className="flex my-10 flex-col w-full items-center justify-center gap-1" ref={ref}>
-              <h2 className="text-4xl py-4 font-bold text-center" id="stats">
-                Stats
-              </h2>
-              <Image src="/assets/images/underline2.svg" alt="underline" width={600} height={21} />
-            </div>
-            <div
-              key={animationKey}
-              className="grid lg:grid-cols-4 justify-center gap-12 mx-auto grid-cols-1"
-            >
-              {stats.map((stat, index) => (
-                <div key={index} className="flex flex-col items-center">
-                  <CountUp
-                    start={0}
-                    end={stat.value}
-                    duration={2.5}
-                    separator=","
-                    className="text-5xl font-bold"
-                  />
-                  <p className="text-xl font-light">{stat.label}</p>
-                </div>
-              ))}
-            </div>
-          </Reveal>
-        </Container>
-      </SectionContainer>
+
     </>
   )
 }

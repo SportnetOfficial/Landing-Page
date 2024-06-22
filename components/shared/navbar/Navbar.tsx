@@ -11,11 +11,11 @@ const Navbar = () => {
         <Image src="/assets/icons/icon.jpg" alt="logo" width={100} height={20} />
       </Link>
       <ul className="gap-7 text-center text-[15px] font-light hidden lg:flex">
-        <li>
-          <Link href="#features">Features</Link>
+      <li>
+          <Link href="#vision">Vision</Link>
         </li>
         <li>
-          <Link href="#stats">Stats</Link>
+          <Link href="#features">Features</Link>
         </li>
         <li>
           <Link href="#contactUs">Contact Us</Link>
