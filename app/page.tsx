@@ -5,12 +5,10 @@ import FeaturesCard from '@/components/Features/FeaturesCard'
 import { Reveal, CardAnimation } from '@/components/ui/AnimatedContainers'
 export default function Home() {
   const features = [
-    
     {
       image: '/assets/icons/features/dec.svg',
       feature: 'Decentralized Governance',
-      summary:
-        'Community-Driven Decisions - Your voice matters in shaping our platform',
+      summary: 'Community-Driven Decisions - Your voice matters in shaping our platform',
     },
     {
       image: '/assets/icons/features/computer.svg',
@@ -25,8 +23,7 @@ export default function Home() {
     {
       image: '/assets/icons/features/touch.svg',
       feature: 'NFT Rewards',
-      summary:
-        'Exclusive Digital Collectibles - Own unique NFTs and be part of the journey',
+      summary: 'Exclusive Digital Collectibles - Own unique NFTs and be part of the journey',
     },
     {
       image: '/assets/icons/features/heart.svg',
@@ -37,24 +34,20 @@ export default function Home() {
     {
       image: '/assets/icons/features/social.svg',
       feature: 'Social Engagement',
-      summary:
-        'Connect and Share - Foster a vibrant community of fans and supporters',
+      summary: 'Connect and Share - Foster a vibrant community of fans and supporters',
     },
 
     {
       image: '/assets/icons/features/analytics.svg',
       feature: 'Real-Time Analytics',
-      summary:
-        'Stay Informed - Access real-time data for informed decisions',
+      summary: 'Stay Informed - Access real-time data for informed decisions',
     },
 
     {
       image: '/assets/icons/features/training.svg',
       feature: 'Training & Progress Updates',
-      summary:
-        'Follow Their Journey - Regular updates on training and milestones',
+      summary: 'Follow Their Journey - Regular updates on training and milestones',
     },
-    
   ]
   return (
     <>
@@ -147,12 +140,12 @@ export default function Home() {
                 {features.map((feature, index) => {
                   return (
                     <CardAnimation key={index} custom={index}>
-                    <FeaturesCard
-                      image={feature.image}
-                      feature={feature.feature}
-                      summary={feature.summary}
-                    />
-                     </CardAnimation>
+                      <FeaturesCard
+                        image={feature.image}
+                        feature={feature.feature}
+                        summary={feature.summary}
+                      />
+                    </CardAnimation>
                   )
                 })}
               </div>
