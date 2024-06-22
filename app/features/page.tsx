@@ -1,13 +1,13 @@
-'use client';
+'use client'
 
-import React from 'react';
-import Image from 'next/image';
-import Card from '@/components/vision/Card';
-import { SectionContainer, Container } from '@/components/ui/Containers';
-import { PrimaryButton } from '@/components/ui/Button';
-import { Reveal, CardAnimation } from '@/components/ui/AnimatedContainers';
+import React from 'react'
+import Image from 'next/image'
+import Card from '@/components/vision/Card'
+import { SectionContainer, Container } from '@/components/ui/Containers'
+import { PrimaryButton } from '@/components/ui/Button'
+import { Reveal, CardAnimation } from '@/components/ui/AnimatedContainers'
 // import { Card, CardContent, CardDescription, CardFooter, CardHeader,CardTitle,} from "@/components/ui/card";
-import Link from 'next/link';
+import Link from 'next/link'
 
 const features = () => {
   return (
@@ -76,7 +76,9 @@ const features = () => {
           animation: fadeInUp 0.8s ease-out;
         }
         .card {
-          transition: transform 0.3s, box-shadow 0.3s;
+          transition:
+            transform 0.3s,
+            box-shadow 0.3s;
         }
         .card:hover {
           transform: translateY(-10px);
@@ -84,7 +86,7 @@ const features = () => {
         }
       `}</style>
     </SectionContainer>
-  );
-};
+  )
+}
 
-export default features;
+export default features
